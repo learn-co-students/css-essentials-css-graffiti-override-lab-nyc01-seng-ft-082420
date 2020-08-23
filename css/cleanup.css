@@ -1,1 +1,24 @@
-/* write your override styles here */
+.tag-1{
+  display: none;
+}
+.tag-2{
+  display:block;
+}
+.tag-3{
+  display:none;
+}
+#tag-4{
+  z-index:4;
+}
+#wall .tag-1 {
+  display: none;
+}
+#tag-3{
+  display: none;
+}
+#tag-7{display:none;}
+.tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: block;
+}
